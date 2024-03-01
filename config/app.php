@@ -14,4 +14,4 @@ define('BASE_DIR',realpath(__DIR__."/../"));
 
 
 
-echo BASE_DIR;
+// echo BASE_DIR;
