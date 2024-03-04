@@ -18,7 +18,16 @@ $current_rout = substr($current_rout,1);
 define('CURRENT_ROUT', $current_rout);
 
 
-echo $current_rout;
+global $routes;
+
+
+
+$routes =[
+    'get'=>[],
+    'post'=>[],
+    'put'=>[],
+    'delete'=>[],
+];
 
 
 
