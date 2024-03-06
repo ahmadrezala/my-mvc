@@ -7,4 +7,4 @@ use Core\Router\web\Route;
 
 
 
-Route::put('/' , [UserController::class , 'index']);
+Route::get('/' , [UserController::class , 'index']);

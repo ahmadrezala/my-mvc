@@ -16,10 +16,7 @@ class Route{
 
         array_push($routes['get'] , ['route' => trim($route, '/') , 'controller' => $controller, 'method' => $method]);
 
-    //    echo ;
-        echo '<pre>';
-       var_dump($routes);
-       echo '</pre>';
+
 
 
     }
@@ -37,10 +34,13 @@ class Route{
 
         array_push($routes['post'] , ['route' => trim($route, '/') , 'controller' => $controller, 'method' => $method]);
 
-    //    echo ;
-        echo '<pre>';
-       var_dump($routes);
-       echo '</pre>';
+       
+
+
+
+    //     echo '<pre>';
+    //    var_dump($routes);
+    //    echo '</pre>';
 
 
     }
@@ -59,10 +59,11 @@ class Route{
 
         array_push($routes['put'] , ['route' => trim($route, '/') , 'controller' => $controller, 'method' => $method]);
 
-
-        echo '<pre>';
-       var_dump($routes);
-       echo '</pre>';
+    //     echo CURRENT_ROUT;
+     
+    //           echo '<pre>';
+    //    var_dump($routes);
+    //    echo '</pre>';
 
 
     }
@@ -81,10 +82,7 @@ class Route{
 
         array_push($routes['delete'] , ['route' => trim($route, '/') , 'controller' => $controller, 'method' => $method]);
 
-    //    echo ;
-        echo '<pre>';
-       var_dump($routes);
-       echo '</pre>';
+ 
 
 
     }
